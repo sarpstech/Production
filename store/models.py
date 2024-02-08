@@ -7,7 +7,7 @@ class Address(models.Model):
     locality = models.CharField(max_length=150, verbose_name="Nearest Location")
     city = models.CharField(max_length=150, verbose_name="City")
     state = models.CharField(max_length=150, verbose_name="State")
-    zip = models.CharField(max_length=5, null=True)
+    
 
     def __str__(self):
         return self.locality
@@ -76,7 +76,7 @@ class Order(models.Model):
     ('Pending', 'Pending'),
     ('Accepted', 'Accepted'),
     ('Packed', 'Packed'),
-    ('On The Way', 'On The Way'),
+    ('On The Way', 'On The Way'), 
     ('Delivered', 'Delivered'),
     ('Cancelled', 'Cancelled')
 )
@@ -91,3 +91,5 @@ class Order(models.Model):
         max_length=50,
         default="Pending"
         )
+
+
