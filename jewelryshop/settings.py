@@ -17,7 +17,12 @@ SECRET_KEY = 'django-insecure-3%y3laftm62q0zaj+s7#p-xqq9(&#q+)s8)p-&#&bz*0$!xu$0
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["sarpstech-techhubproduction-d8afc3a0fa1f.herokuapp", "127.0.0.1", "git clone https://github.com/heroku/python-getting-started.git", "git.heroku.com/sarpstech-techhubproduction.git"]
+ALLOWED_HOSTS = ["sarpstech-techhubproduction-d8afc3a0fa1f.herokuapp", 
+    "newproduction-8b3237636559.herokuapp.com",
+    "git.heroku.com/newproduction.git"
+    "127.0.0.1", 
+    "github.com/heroku/python-getting-started.git", 
+    "git.heroku.com/sarpstech-techhubproduction.git"]
 
 
 # Application definition
