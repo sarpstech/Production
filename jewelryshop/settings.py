@@ -22,7 +22,8 @@ ALLOWED_HOSTS = ["sarpstech-techhubproduction-d8afc3a0fa1f.herokuapp",
     "git.heroku.com/newproduction.git",
     "127.0.0.1", 
     "github.com/heroku/python-getting-started.git", 
-    "git.heroku.com/sarpstech-techhubproduction.git"
+    "git.heroku.com/sarpstech-techhubproduction.git",
+    "production-i3s8.vercel.app",
     ".vercel.app"]
 
 
