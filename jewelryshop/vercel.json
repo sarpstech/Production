@@ -2,7 +2,7 @@
     "builds": [{
         "src": "jewelryshop/wsgi.py",
         "use": "@vercel/python",
-        "config": { "maxLambdaSize": "15mb", "runtime": "python3.2.3" }
+        "config": { "maxLambdaSize": "15mb", "runtime": "python3.2" }
     }],
     "routes": [
         {
