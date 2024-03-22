@@ -21,7 +21,7 @@ ALLOWED_HOSTS = ["127.0.0.1",".vercel.app", "production-g8cw.vercel.app",
                 "newproduction-8b3237636559.herokuapp.com",
                 "git.heroku.com/newproduction.git"]
 
-
+#host=newproduction-8b3237636559.herokuapp.com
 # Application definition
 
 INSTALLED_APPS = [
@@ -46,7 +46,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'jewelryshop.urls'
+ROOT_URLCONF = 'techhub.urls'
 
 TEMPLATES = [
     {
@@ -66,7 +66,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'jewelryshop.wsgi.application'
+WSGI_APPLICATION = 'techhub.wsgi.application'
 
 
 # Database
@@ -117,7 +117,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'jewelryshop/static')]
+STATICFILES_DIRS = [os.path.join(BASE_DIR, 'techhub/static')]
 STATIC_ROOT = os.path.join(BASE_DIR, 'static') # Automatically Created on Production
 
 # Settings for Media
