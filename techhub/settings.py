@@ -19,7 +19,8 @@ DEBUG = False
 
 ALLOWED_HOSTS = ["127.0.0.1",".vercel.app", "production-g8cw.vercel.app",
                 "newproduction-8b3237636559.herokuapp.com",
-                "git.heroku.com/newproduction.git"]
+                "git.heroku.com/newproduction.git",
+                "sarpstech.xyz"]
 
 #host=newproduction-8b3237636559.herokuapp.com
 # Application definition
