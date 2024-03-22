@@ -1,1 +1,1 @@
-web: gunicorn sarps.wsgi --log-file -
+web: gunicorn jewelryshop.wsgi --log-file -
